@@ -38,7 +38,7 @@ header{
       top: 0;
       left: 0;
       background-color: gray;
-      /* position: fixed; */
+      position: fixed;
       top: 0; left: 0; right: 0;
   }
 
@@ -51,7 +51,7 @@ header{
       display: none;
       width: 100vw;
       height: 100vh;
-    background-color:var(--color_verdeOscuro);
+    background-color:var(--color_verdeBase);
     font-family: var(--fuente_Base);
     list-style-type: none;
     padding: calc(var(--margen_paddingGeneral)*6) var(--margen_paddingGeneral);
@@ -83,10 +83,6 @@ header{
   
   /* MAIN */
 
-  /* .gono{
-      filter: invert();
-      width: 35px;
-  } */
   h1{
       color: white;
       font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
